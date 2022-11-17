@@ -1,0 +1,33 @@
+body {
+  background: var(--light-dark-bg);
+}
+
+.course-bar {
+    background: var(--light-dark-bg);
+    box-shadow: var(--threeD-shadow);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.7s;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.course-bar-title {
+    background: var(--red);
+    box-shadow: var(--threeD-shadow);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.7s;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.course-bar-btn {
+    display: flex;
+    align-items: center;
+}
+
+.course-bar:hover {
+    background-color: var(--red);
+}

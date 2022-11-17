@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+.course {
+    font-family: 'Inter', sans-serif;
+}
+
+.course .pro-card {
+    border: none;
+    border-radius: 10px;
+}
+
+.pro-card {
+    background: var(--gradient-bg);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: var(--threeD-shadow);
+}
+
+.pro-card img{
+    border-radius: 6px;
+}
+
+.small-font {
+    font-size: 13px;
+    color: rgb(108, 108, 108);
+    font-weight: 600;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-bottom h4{
+    margin: 0;
+}
+
+.red-button {
+    background: var(--red);
+    /* background: linear-gradient(145deg, #1e2024, #23272b); */
+    box-shadow: var(--threeD-shadow);
+    border-radius: 6px;
+    /* background: linear-gradient(145deg, #1e2024, #23272b); */
+    font-size: 14px;
+    font-weight: 500;
+    border: 0 none;
+    /* color: var(--red); */
+    color: #fff;
+    padding: 10px 15px;
+    transition: 0.5s;
+}
+
+.red-button:hover {
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    color: var(--red);
+}

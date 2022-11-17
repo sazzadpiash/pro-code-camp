@@ -1,0 +1,21 @@
+.course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.bg-light-dark {
+    background-color: var(--light-dark-bg);
+}
+
+.sidebar {
+    background: var(--gradient-bg);
+    border-radius: 10px;
+    box-shadow: var(--threeD-shadow);
+}
+
+@media screen and (max-width: 768px) {
+    .course {
+        grid-template-columns: 1fr;
+    }
+}
